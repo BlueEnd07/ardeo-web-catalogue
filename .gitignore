@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / dependencies (if any)
+node_modules/
+
+# Environment / secrets
+.env
+.env.local
+
+# Assets — placeholder structure tracked, actual binary files untracked
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.mp4
+assets/**/*.stp
+assets/**/*.step
+assets/**/*.dwg
+assets/**/*.ies
+assets/**/*.pdf
+!assets/**/.gitkeep
