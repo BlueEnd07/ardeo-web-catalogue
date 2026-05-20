@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .prose-table {
+    @apply w-full border-collapse text-sm;
+  }
+  .prose-table th {
+    @apply border border-gray-300 bg-gray-100 px-3 py-2 text-left font-semibold;
+  }
+  .prose-table td {
+    @apply border border-gray-300 px-3 py-2;
+  }
+  .prose-table tr:nth-child(even) td {
+    @apply bg-gray-50;
+  }
+}
+
+.status-active {
+  @apply inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800;
+}
+.status-upcoming {
+  @apply inline-flex items-center rounded-full bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-800;
+}
+.status-discontinued {
+  @apply inline-flex items-center rounded-full bg-red-100 px-2.5 py-0.5 text-xs font-medium text-red-800;
+}
+.status-prototype {
+  @apply inline-flex items-center rounded-full bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800;
+}

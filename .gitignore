@@ -9,8 +9,16 @@ desktop.ini
 *.swp
 *.swo
 
-# Node / dependencies (if any)
+# Node / dependencies
 node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
 
 # Environment / secrets
 .env
